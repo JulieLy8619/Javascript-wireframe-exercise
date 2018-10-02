@@ -1,0 +1,8 @@
+header {
+  background-color: #555;
+  width: 100%;
+}
+
+header div { /*so i only get the div in the header*/
+  margin: auto;
+}
