@@ -38,6 +38,42 @@ main > img { /* > means direct child of main*/
   margin-bottom: 29px;
 }
 
+main ul li {
+  float: left;
+}
+
+main ul li:nth-child(1) {
+  width: 300px;
+  margin-right: 30px;
+}
+
+main ul li:nth-child(2) {
+  width: 300px;
+  margin-right: 30px;
+}
+
+/* article {
+  width: 960px;
+} */
+
+article img {
+  float: left;
+  width: 50%;
+  margin-right: 30px;
+}
+
+article div {
+  width: 450px;/*960-480= 480-30= 450*/
+  float: left;
+  font-style: italic;
+}
+
+article div h3 {
+  font-size: 120%;
+  font-weight: heavy;
+}
+
+
 /*
 warning if semi colan at end of section of curly brackets then it will stop the css and it will not tell you it is a linter error
 
